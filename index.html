@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./main.js" defer></script>
+        <link rel="stylesheet" href="./styles.css">
+
+
+    </head>
+    <body>
+        <div class="content">
+            <h1>Santa's 2025 Stats!</h1>
+            <img src="Santastats.png">
+            <p>Recording stats since, well, 2025</p>
+            <form id="giftForm">
+                <label for="name">Country Delivered To: </label>
+                <input id="name" type="text" name="name" required>
+                <br>
+                <label for="gift">Gift: </label>
+                <input id="gift" type="text" name="gift" required>
+                <br>
+                <label for="time">Time To Deliver (hours): </label>
+                <input id="time" type="number" name="time" required>
+                <br>
+                <input type="submit" value="Submit!">
+            </form>
+            <div id="stats"></div>
+            
+            <h2>Submissions</h2>
+            <div id="gifts"></div>
+        </div>
+
+    </body>
+</html>
